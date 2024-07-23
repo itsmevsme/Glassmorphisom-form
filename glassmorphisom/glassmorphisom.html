@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0%;
+            margin: 0%;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background-color: black;
+        }
+
+        .circleone {
+            height: 150px;
+            width: 150px;
+            background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(45, 202, 253, 0.1316176128654587) 100%);
+            border-radius: 50%;
+            position: absolute;
+            top: 5px;
+            left: 460px;
+
+
+        }
+
+        .circletwo {
+            height: 150px;
+            width: 150px;
+            background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+            border-radius: 50%;
+            position: absolute;
+            bottom: 5px;
+            right: 460px;
+
+
+        }
+
+        .form {
+            height: 650px;
+            width: 450px;
+
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            position: absolute;
+            transform: translate(-50%, -50%);
+            top: 50%;
+            left: 50%;
+        }
+
+        .form-contact {
+
+            height: 550px;
+            width: 80%;
+            margin: auto;
+        }
+
+        h1 {
+            color: white;
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        p {
+
+            color: white;
+            font-size: 20px;
+            margin-top: 90px;
+        }
+
+        input {
+            background: rgba(39, 12, 53, 0.27);
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(8.2px);
+            -webkit-backdrop-filter: blur(8.2px);
+            border: 1px solid rgba(39, 12, 53, 0.53);
+            height: 50px;
+            width: 100%;
+            border-radius: 8px;
+            border: transparent;
+            outline: none;
+            margin: 5px;
+            color: white;
+        }
+        input:hover{
+            font-size: 17px;
+        
+        }
+        ::placeholder {
+            padding-left: 25px;
+            font-size: 15px;
+            color: white;
+        }
+
+        #pass {
+            margin-top: 25px;
+        }
+
+        button {
+            height: 50px;
+            width: 100%;
+            color: black;
+            background-color: white;
+            margin-top: 50px;
+            border-radius: 5px;
+            font-size: 20px;
+            font-family: Arial;
+        }
+button:hover{
+    color: red;
+}
+        .button {
+            height: 40px;
+            width: 30%;
+           color: white;
+            font-size: 15px;
+            position: relative;
+            left: 15px;
+            background: rgba(39, 12, 53, 0.27);
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(8.2px);
+            -webkit-backdrop-filter: blur(8.2px);
+            border: 1px solid rgba(39, 12, 53, 0.53);
+
+        }
+
+        .button2 {
+            height: 40px;
+            width: 30%;
+            color: white;
+            font-size: 15px;
+            position: absolute;
+            right: 95px;
+            background: rgba(39, 12, 53, 0.27);
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(8.2px);
+            -webkit-backdrop-filter: blur(8.2px);
+            border: 1px solid rgba(39, 12, 53, 0.53);
+        }
+
+        .button:hover {
+            color: red;
+           
+        }
+
+        .button2:hover {
+            color: red;
+          
+        }
+        .made{
+            color: red;
+            text-align: center;
+            position: relative;
+            bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="circleone"></div>
+    <div class="circletwo"></div>
+    <div class="form">
+        <div class="form-contact">
+            <h1>login Here</h1>
+            <p>Username</p>
+            <input type="text" placeholder="E-mail or phone">
+            <p id="pass">Password</p>
+            <input type="password" placeholder="Enter password">
+
+            <button>Log In</button>
+            <button class="button">Google</button>
+            <button class="button2">facebook</button>
+            <p class="made"> made by mr &hearts; DJ</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
